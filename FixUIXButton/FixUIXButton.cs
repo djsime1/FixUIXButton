@@ -1,15 +1,15 @@
 using HarmonyLib;
-using NeosModLoader;
+using ResoniteModLoader;
 using FrooxEngine.UIX;
 
 namespace FixUIXButton
 {
-    public class FixUIXButton : NeosMod
+    public class FixUIXButton : ResoniteMod
     {
         public override string Name => "FixUIXButton";
-        public override string Author => "art0007i";
-        public override string Version => "1.1.0";
-        public override string Link => "https://github.com/art0007i/FixUIXButton/";
+        public override string Author => "art0007i & djsime1";
+        public override string Version => "2.0.0";
+        public override string Link => "https://github.com/djsime1/FixUIXButton/";
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("me.art0007i.FixUIXButton");
